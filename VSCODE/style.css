@@ -1,0 +1,141 @@
+/* Reset some default browser styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Page Background */
+body {
+    font-family: Arial, sans-serif;
+    background:#1e1e2f;
+    color: #ffffff;
+    text-align: center;
+    padding:20px;
+    min-height:100vh;
+}
+
+/* Title */
+h1 {
+    margin-bottom:10px;
+    font-size:2rem;
+}
+
+/*Letter display*/
+h2 {
+    margin-bottom:20px;
+    font-size:1.5rem;
+}
+
+#letter {
+    color:#00ffd5;
+    font-weight:bold;
+    font-size:2rem;
+}
+
+#timer {
+    color:#ff4d6d;
+    font-weight:bold;
+    font-size:2rem;
+}
+/*Game Container*/
+.game-container {
+    background: #2f2f4f;
+    padding:20px;
+    border-radius:12px;
+    width:300px;
+    margin:0 auto 20px auto;
+    box-shadow: 0 0 15px rgba(0,0,0.5);
+}
+
+/*labels*/
+.game-container label {
+    display:block;
+    margin-top:10px;
+    text-align:left;
+    font-size:0.9rem;
+}
+
+/*inputs*/
+.game-container input {
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:6px;
+    border:none;
+    outline:none;
+    font-size:1rem;
+}
+
+/*input effect*/
+.game-container input:focus {
+    border:2px solid #00ffd5
+
+    box-shadow 0 0 10px #00ffd5;
+}
+
+/*buttons*/
+button {
+    margin:10px 5px;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 8px;
+    background-color:#00ffd5;
+    color:#1e1e2f;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.2s ease;
+}
+
+butto:hover {
+    background-color:#00c2a8;
+    transform:scale(1.05);
+}
+
+/*score*/
+h3 {
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+.instructions {
+    background:#252542;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom: 20px;
+
+    text-align: left;
+}
+
+.instructions h2 {
+    color: #00ffd5;
+    
+    margin-bottom:10px;
+}
+
+.instructions p {
+    margin-bottom:8px;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .game-container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    button {
+        width: 100%;
+    }
+    
+}

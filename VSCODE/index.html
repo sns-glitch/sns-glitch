@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <h1>Boy, Girl, Animal, Place, Thing</h1>
+
+        <!--Timer-->
+        <h2>Time Left: <span id="timer">30</span></h2>
+        <h2>
+            Round:
+            <span id="round-number">1</span>/5
+        </h2>
+
+        <!--Letter Display-->
+        <h3>Letter: <span id="letter">A</span></h3>
+
+        <!--Input Section-->
+        <div class="game-container">
+            
+            <label>Boy:</label>
+            <input type="text" id="boy" placeholder="Enter a boy name">
+
+            <label>Girl:</label>
+            <input type="text" id="girl" placeholder="Enter a girl name">
+
+            <label>Animal:</label>
+            <input type="text" id="animal" placeholder="Enter a animal name">
+
+            <label>Place:</label>
+            <input type="text" id="place" placeholder="Enter a place name">
+
+            <label>Thing:</label>
+            <input type="text" id="thing" placeholder="Enter a thing name">
+
+        </div>
+
+        <!--Buttons-->
+        <button onclick="submitAnswers()">
+            Submit
+        </button>
+
+        <button onclick="newRound()">
+            New Letter
+        </button>
+
+        <div class="instructions">
+            <h2>How To Play</h2>
+
+            <p>
+                A random letter will appear.
+            </p>
+
+            <p>
+                Fill in Boy, Girl, Animal, Place, and Thing using words that start with that letter.
+            </p>
+
+            <p>
+                Each correct answer earns 1 point.
+            </p>
+
+            <p>
+                Complete all 5 rounds to get your final score.
+            </p>
+        </div>
+
+        <button onclick="startGame()">
+            Start Game 
+            </button>
+
+        <!--Score-->
+        <h4>Score: <span id="score">0</span></h4>
+
+        <h4>
+            High Score:
+            <span id="high-score">0</span>
+        </h4>
+
+        <p id="final-message"></p>
+
+        <audio
+        id="correct-sound"
+        src="correct.mp3">
+        </audio>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
