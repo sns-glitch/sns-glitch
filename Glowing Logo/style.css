@@ -1,0 +1,16 @@
+.symbol {
+    width: 250px;
+
+    filter: 
+        drop-shadow(0 0 10px red)
+        drop-shadow(0 0 20px red)
+        drop-shadow(0 0 40px red);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        filter:
+            drop-shadow(0 0 10px red)
+            drop-shadow(0 0 20px red)
+    }
+    

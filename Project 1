@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>The Muse Awakens</title>
+    </head>
+
+    <body>
+        <h1>Welcome to My World</h1>
+    
+    
+    <p>
+        My name is Sade, and I'm someone who is constantly learning, growing, and trying to understand the world around me.
+        I tend to think deeply about things, and I've always had a strong sense of curiosity about people, ideas, and the kind of likfe I want to build for myself.
+        I'm independent by nature, but I also value the people and experience that have helped shape who I am. 
+        I'm still figuring things out as I go, but I believe that becoming the person I want to be is a process rather than something that happens overnight.
+    </p>
+
+    <p>
+        At this stage of my life, I'm focused on becoming more confident in who I am and more intentional about the choices I make.
+        I have high expectations for myself, and while that can sometimes make me harder on myself that I need to be, it also pushed me to keep moving forward.
+        I'm not interested in living a life simply because it is familiar or expected of me. 
+        I want to create a life that feels genuinely mine, built through patience, discipline, curiosity, and the willingness to keep trying even when I don't have everything figured out yet.
+    </p>
+
+    <h3>My Hobbies</h3>
+    <ul>
+        <li>Coding & Technology
+        <li>Reading & Writing Stories
+        <li>Poetry
+        <li>Astronomy
+        <li>Learning Korean & Chinese
+        <li>Designing and creating ideas
+        <li>Exploring Music & KPOP
+        <li>Fitness & Running
+        </ul>
+
+    <h3>My Coding Goals</h3>
+     <ol>
+        <li>Master foundation of Web Development
+        <li>Create Meaningful Software Projects
+        <li>Explore AI & Machine Learning
+        <li>Combine Technology with my Interests in Science & Discovery
+        <li>Become a Software Engineer & Build Innovative Software
+        <li>Continue learning and growing as a Developer
+     </ol>
+
+</body>
+ </html>
